@@ -1,0 +1,1 @@
+apptainer build genomics.sif docker-daemon://ararder/genomics:latest

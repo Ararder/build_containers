@@ -5,5 +5,5 @@ ENV DEBIAN_FRONTEND noninteractive
 
 
 WORKDIR /tmp
-COPY /src/plink/install.sh .
+COPY /src/genetics/install.sh .
 RUN chmod +x install.sh && ./install.sh

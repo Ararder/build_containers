@@ -24,3 +24,9 @@ I'm using the default codespace container (need to check which one it is)
 apptainer build genomics.sif docker-daemon://ararder/genomics:latest
 
 docker push my_repository/my_image:my_tag
+
+
+# tag your docker image
+id=aeca1c2df733
+name=ararder/genomics:latest
+docker tag aeca1c2df733 ararder/genomics:latest
