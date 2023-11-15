@@ -35,3 +35,8 @@ wget --no-check-certificate https://ctg.cncr.nl/software/MAGMA/prog/magma_v1.10_
     unzip magma_v1.10_static.zip -d magma && \
     rm -rf magma_v1.10_static.zip && \
     mv magma/magma /bin 
+
+# bedtools
+wget --no-check-certificate https://github.com/arq5x/bedtools2/releases/download/v2.31.0/bedtools.static && \
+    chmod +rwx bedtools.static && \
+    mv bedtools.static /bin/bedtools
