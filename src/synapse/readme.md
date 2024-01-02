@@ -25,7 +25,6 @@ export SYNAPSE_AUTH_TOKEN
 singularity exec synapse_latest.sif echo $SYNAPSE_AUTH_TOKEN
 ```
 
-```
 
 For some reasons the commandline login is not working. Can run the python script through the container.
 The files are by default saved to /home/user/.synapseCache
