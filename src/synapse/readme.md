@@ -36,16 +36,3 @@ This will probably need to be changed, as we don't have tht much local storage o
 singularity exec synapse_latest.sif python example.py
 
 ```
-
-
-
-```{python}
- syn52363617 = syn.get(entity='syn52363617') 
- 
- # Get the path to the local copy of the data file 
- filepath = syn52363617 .path  
-
-```
-
-
-synapse login -p $TOKEN
