@@ -19,14 +19,14 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
-      #   name: Build and push genetics
-      #   uses: docker/build-push-action@v5
-      #   with:
-      #     context: .
-      #     file: ./src/genetics/Dockerfile
-      #     push: true
-      #     tags: ${{ secrets.DOCKERHUB_USERNAME }}/genetics:latest
-      # -
+        name: Build and push genetics
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./src/genetics/Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/genetics:latest
+      -
         name: Build and push ldsc
         uses: docker/build-push-action@v5
         with:
