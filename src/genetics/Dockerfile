@@ -4,5 +4,5 @@ ENV TZ=Europe
 
 
 WORKDIR /tmp
-COPY src/genetics/install.sh .
+COPY install.sh .
 RUN chmod +x install.sh && ./install.sh
