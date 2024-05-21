@@ -22,8 +22,7 @@ jobs:
         name: Build and push genetics
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./src/genetics/Dockerfile
+          context: "{{defaultContext}}:src/genetics"
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/genetics:latest
       -
