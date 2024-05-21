@@ -20,7 +20,7 @@ wget --no-check-certificate https://s3.amazonaws.com/plink2-assets/alpha2/plink2
     rm -rf plink2_linux_x86_64.zip && \
     mv plink2/plink2 /bin
 # gctb
-wget --no-check-certificate https://cnsgenomics.com/software/gctb/download/gctb_2.05beta_Linux.zip && \
+wget --no-check-certificate https://cnsgenomics.com/software/gctb/download/gctb_2.5.1_Linux.zip && \
     unzip gctb_2.05beta_Linux.zip -d gctb && \
     rm -rf gctb_2.05beta_Linux.zip && \
     mv gctb/gctb_2.05beta_Linux/gctb /bin
