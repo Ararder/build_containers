@@ -25,11 +25,4 @@ jobs:
           context: "{{defaultContext}}:src/genetics"
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/genetics:latest
-      -
-        name: Build and push ldsc
-        uses: docker/build-push-action@v5
-        with:
-          context: "{{defaultContext}}:src/ldsc"
-          push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ldsc:latest
           
