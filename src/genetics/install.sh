@@ -21,14 +21,14 @@ wget --no-check-certificate https://s3.amazonaws.com/plink2-assets/alpha2/plink2
     mv plink2/plink2 /bin
 # gctb
 wget --no-check-certificate https://cnsgenomics.com/software/gctb/download/gctb_2.5.1_Linux.zip && \
-    unzip gctb_2.05beta_Linux.zip -d gctb && \
-    rm -rf gctb_2.05beta_Linux.zip && \
-    mv gctb/gctb_2.05beta_Linux/gctb /bin
+    unzip gctb_2.5.1_Linux.zip -d gctb && \
+    rm -rf gctb_2.5.1_Linux.zip && \
+    mv gctb/gctb_2.5.1_Linux/gctb /bin
 #gcta
 wget --no-check-certificate https://yanglab.westlake.edu.cn/software/gcta/bin/gcta-1.94.1-linux-kernel-3-x86_64.zip && \
     unzip gcta-1.94.1-linux-kernel-3-x86_64.zip -d gcta && \
     rm -rf gcta-1.94.1-linux-kernel-3-x86_64.zip && \
-    mv gcta/gcta-1.94.1-linux-kernel-3-x86_64/gcta-1.94.1 /bin/gcta
+    mv gcta/gcta-1.94.1-linux-kernel-3-x86_64/gcta64 /bin/gcta
 
 # magma
 wget --no-check-certificate https://ctg.cncr.nl/software/MAGMA/prog/magma_v1.10_static.zip && \
